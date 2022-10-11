@@ -1,0 +1,270 @@
+* {
+  font-family: "Archivo", sans-serif;
+  margin: 0;
+}
+body {
+  color: rgb(82, 99, 113);
+}
+
+h3,
+.tweet-content {
+  color: black;
+}
+
+#main-container {
+  margin: 0 auto;
+  max-width: 40rem;
+  border-left: solid 1px rgb(210, 210, 210);
+  border-right: solid 1px rgb(210, 210, 210);
+  /* position: relative; */
+}
+
+#header-container {
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+}
+
+#tweets-container {
+  border-top: solid rgb(210, 210, 210);
+}
+#tweet {
+  border-bottom: solid rgb(210, 210, 210);
+  display: flex;
+}
+
+.header-info {
+  padding-left: 40px;
+}
+
+.cover-photo {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.profile-picture {
+  border: solid white 5px;
+  border-radius: 200px;
+  width: 140px;
+  position: relative;
+  top: -45px;
+  /* left: 10px; */
+}
+
+.profile-info-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  max-height: 90px;
+
+  /* transform: translateX(0) translateY(-573%); */
+}
+
+.following-btn {
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(28, 155, 239);
+  color: white;
+  padding: 14px 18px;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+  /* transform: translateY(80%); */
+  cursor: pointer;
+}
+
+.following-btn:hover {
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+}
+
+.profile-info-bottom {
+  padding-left: 18px;
+  padding-bottom: 30px;
+  position: relative;
+  /* transform: translateY(15%); */
+}
+.profile-picture-mini {
+  padding: 10px 0 0 16px;
+}
+
+.profile-picture-mini img {
+  border-radius: 200px;
+  width: 60px;
+  /* position: absolute; */
+  /* top: 15px;
+    left: 15px; */
+}
+
+.display-name {
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+}
+
+.display-name.profile {
+  padding-bottom: 4px;
+}
+
+.display-name.tweet {
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+}
+
+.twitter-handle {
+  padding-top: 2px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.verified {
+  width: 20px;
+  padding-left: 2px;
+}
+
+.gg-calendar-dates {
+  margin-right: 10px;
+}
+
+.joined-date {
+  display: flex;
+  word-spacing: 2px;
+  padding: 18px 0 16px 0;
+}
+
+.joined-date,
+.header-tweets,
+.twitter-handle {
+  color: rgb(82, 99, 113);
+}
+
+.follow-counts {
+  display: flex;
+}
+
+.follower-count {
+  padding-left: 20px;
+}
+
+.bold {
+  font-weight: 700;
+  color: black;
+}
+
+.header-tweets {
+  font-size: 16px;
+  padding-top: 2px;
+  padding-bottom: 10px;
+}
+
+.back-btn {
+  /* position: absolute; */
+  border: none;
+  background-color: white;
+  color: rgb(0, 162, 255);
+  padding-left: 20px;
+  /* left: 12px;
+    top: 9px; */
+  cursor: pointer;
+  /* transform: translateX(-220%) translateY(140%); */
+}
+
+.tab-container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 66px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content-tab {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-tab:hover {
+  color: rgb(28, 155, 239);
+  transition: 0.5s ease;
+  background-color: rgb(160, 206, 237);
+}
+
+button.content-tab {
+  color: rgb(82, 99, 113);
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  background-color: white;
+}
+
+.selected {
+  color: rgb(28, 155, 239) !important;
+  border-bottom: 2px solid rgb(28, 155, 239) !important;
+}
+
+/* .blue-bar {
+    display: flex;
+}
+
+.blue-tab {
+    border: 1.5px solid rgb(28,155,239);
+    width: 25%;  
+} */
+
+.tweet-content {
+  padding: 20px 0px 20px 50px;
+  width: 100%;
+}
+
+.tweet-innertext {
+  padding: 10px 0 16px 0;
+}
+
+.social-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 75%;
+}
+
+.social-bar i {
+  cursor: pointer;
+}
+
+.gg-comment:after {
+  transition: 1s;
+}
+
+.gg-comment:hover {
+  color: #ffcb3c;
+  cursor: pointer;
+  transition: 0.1s ease;
+}
+
+.gg-repeat:hover {
+  color: rgb(28, 155, 239);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.gg-heart:hover {
+  color: #da0303;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.gg-software-upload:hover {
+  color: rgb(12, 230, 0);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.hide {
+  display: none;
+}
