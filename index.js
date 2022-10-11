@@ -47,13 +47,9 @@ var users = {
     ],
   },
 };
-//   window.location.href = 'http://127.0.0.1:5500/?user=user1'
 
 let usp = new URLSearchParams(window.location.search);
 let paramUser = usp.get("user");
-
-//   if(usp.toString())
-console.log(usp.toString());
 
 // declare DOM variables
 const headerContainer = document.getElementById("header-container");
@@ -132,9 +128,11 @@ backBtn.addEventListener("click", selectElon);
 backBtn.addEventListener("touchstart", selectElon);
 
 function selectBill() {
-  window.location.href = "http://127.0.0.1:5500/?user=user2";
+  window.location.href =
+    "https://sound-e.github.io/Dynamic-Twitter-Project/?user=user2";
 }
 
 function selectElon() {
-  window.location.href = "http://127.0.0.1:5500/?user=user1";
+  window.location.href =
+    "https://sound-e.github.io/Dynamic-Twitter-Project/?user=user1";
 }
